@@ -1,0 +1,622 @@
+@charset "UTF-8"; /* 인코딩 문자 깨짐 방지 */
+/* 전반적인 규칙으로 사용되는 것들 */
+html {
+  /* 사용자가 설정한 문자 크기 그대로 반영 될 수 있도록 */
+  font-size: 100%;
+  /* em -> 부모
+      rem -> 최상위부모 */
+  display: block;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #432;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none; /* 하이퍼링크 밑줄 없애기 */
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  display: block;
+}
+
+/* header ----------------------------------------------------- */
+
+.header {
+  position: fixed;
+  width: 95vw;
+  background-color: #0e0226;
+  width: 1920px;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  margin-right: 832px;
+  margin-left: 225px;
+  margin-top: 21px;
+}
+
+.nav {
+  float: left;
+  margin-top: 27px;
+  margin-bottom: 845px;
+}
+
+.north-east {
+  float: left;
+  margin-top: 29px;
+  margin-bottom: 847px;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.about {
+  margin-right: 40px;
+}
+
+.project {
+  margin-right: 40px;
+}
+
+.skills {
+  margin-right: 40px;
+}
+
+.contact {
+  margin-right: 40px;
+}
+
+.resume {
+  margin-right: 8px;
+}
+
+.button {
+  color: #ece2ff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* main ----------------------------------------------------- */
+.main {
+  width: 1920px;
+  height: 900px;
+  flex-shrink: 0;
+  background: #0e0226;
+  min-height: 100vh;
+}
+
+.big-text {
+  float: left;
+  margin-top: 297px;
+  margin-left: 220px;
+  margin-right: 1000px;
+  margin-bottom: 440px;
+}
+
+.subtitle {
+  float: left;
+  color: #ece2ff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitle-color {
+  color: #8d51ff;
+}
+
+.title {
+  float: left;
+  color: #ece2ff;
+  font-family: Poppins;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about_me_content {
+  float: left;
+  margin-top: 22px;
+}
+
+.about_me_contents {
+  color: #707898;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.view-project {
+  float: left;
+  margin-top: 49px;
+  display: inline-flex;
+  padding: 4px 16px 8px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2px;
+  border-radius: 50px;
+  border: 1px solid #8d51ff;
+}
+
+#viewproject {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+.east-img {
+  float: left;
+  margin-top: 4px;
+}
+
+.main-img {
+  float: left;
+  width: 357px;
+  height: 357px;
+  flex-shrink: 0;
+}
+
+.main-img-big {
+  margin-left: 937px;
+  margin-top: -147px;
+}
+
+/* project ----------------------------------------------------- */
+
+.project {
+  width: 1920px;
+  height: 2330px;
+  flex-shrink: 0;
+  min-height: 100vh;
+}
+
+.project-title {
+  float: left;
+  /* justify-content: flex-start; */
+  margin-top: -160px;
+  margin-right: 1367px;
+  margin-left: 224px;
+  margin-bottom: 2050px;
+}
+
+.project-title-fontsize {
+  color: #2b0c0c;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dot {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-img {
+  float: left;
+  margin-top: -1970px;
+  margin-left: 224px;
+  width: 722.492px;
+  height: 470px;
+  flex-shrink: 0;
+}
+
+.project1-content {
+  float: left;
+  margin-top: -1946px;
+  margin-left: 1024px;
+}
+
+.project1-subtitle {
+  color: #999;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.project1-title {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-chip-Java {
+  float: left;
+  display: flex;
+  padding: 2px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: #f6f1ff;
+  margin-right: 14px;
+}
+
+.project1-chip-Java-font {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-chip-JavaScript {
+  float: left;
+  display: flex;
+  padding: 2px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: #f6f1ff;
+  margin-right: 14px;
+}
+
+.project1-chip-JavaScript-font {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-chip-HTML {
+  float: left;
+  display: flex;
+  padding: 2px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: #f6f1ff;
+  margin-right: 14px;
+}
+
+.project1-chip-HTML-font {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-chip-CSS {
+  float: left;
+  display: flex;
+  padding: 2px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: #f6f1ff;
+}
+
+.project1-chip-CSS-font {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project1-contents {
+  color: #999;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project2-img {
+  float: left;
+  width: 722.492px;
+  height: 470px;
+  flex-shrink: 0;
+  margin-left: 973px;
+  margin-top: -1340px;
+}
+
+.project2-subtitle {
+  float: left;
+  color: #999;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.project2-title {
+  float: left;
+  color: #333;
+  font-family: Pretendard;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project2-content {
+  float: left;
+  margin-top: -1316px;
+  margin-left: 224px;
+}
+
+.project2-contents {
+  color: #999;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project3-img {
+  float: left;
+  width: 722.492px;
+  height: 470px;
+  flex-shrink: 0;
+  margin-left: 224px;
+  margin-top: -710px;
+}
+
+.project3-subtitle {
+  float: left;
+  color: #999;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.project3-title {
+  float: left;
+  color: #333;
+  font-family: Pretendard;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project3-content {
+  float: left;
+  margin-top: -686px;
+  margin-left: 1024px;
+}
+
+.project3-contents {
+  color: #999;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.skills-content {
+  width: 1920px;
+  height: 1075px;
+  flex-shrink: 0;
+  top: 3229px;
+  background: #f0f4f8;
+  min-height: 100vh;
+}
+
+.skills-title-fontsize {
+  color: #2b0c0c;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 224px;
+}
+
+.java {
+  float: left;
+  margin-top: 80px;
+  margin-left: 224px;
+}
+
+.skill-box1 {
+  margin-top: 80px;
+  margin-left: 24px;
+  float: left;
+}
+
+.html-img {
+  margin-left: 17px;
+}
+
+.css-img {
+  margin-left: 17px;
+}
+
+.javascript-img {
+  margin-left: 17px;
+}
+
+.skill-box2 {
+  margin-top: 12px;
+  margin-left: 24px;
+  float: left;
+}
+
+.jpa-img {
+  margin-left: 17px;
+}
+
+.react-img {
+  margin-left: 17px;
+}
+
+.etc-img {
+  margin-left: 17px;
+}
+
+/* resume */
+
+.resume {
+  width: 1920px;
+  height: 477px;
+  flex-shrink: 0;
+  background: url(../images/resume-background.png);
+}
+
+.resume-title {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 160px;
+}
+
+.resume-button {
+  display: inline-flex;
+  padding: 4px 16px 8px 16px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2px;
+  border-radius: 50px;
+  border: 1px solid #8D51FF;
+  margin-top: 44px;
+  margin-left: 876px;
+}
+
+#resumebutton {
+  color: #8d51ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+.footer {
+  width: 1920px;
+height: 524px;
+flex-shrink: 0;
+background: #0E0226;
+}
+
+.email-text {
+  color: #ECE2FF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.email {
+  
+  padding-top: 80px;
+  padding-left: 224px;
+}
+
+.phone-number {
+  color: #ECE2FF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.phone {
+  
+  padding-top: 16px;
+  padding-left: 224px;
+}
+
+.address-text {
+  color: #ECE2FF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.address {
+  padding-top: 16px;
+  padding-left: 224px;
+}
+
+.hr {
+  width: 1920px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #666;
+}
+
+.tistoy {
+  margin-left: 1560px;
+  float: left;
+}
+
+.notion {
+  float: left;
+  margin-left: 40px;
+}
+
+.copyright {
+  color: #ECE2FF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.copy {
+  padding-left: 224px;
+}
