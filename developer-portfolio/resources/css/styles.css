@@ -1,5 +1,8 @@
 @charset "UTF-8"; /* 인코딩 문자 깨짐 방지 */
 /* 전반적인 규칙으로 사용되는 것들 */
+
+
+
 html {
   /* 사용자가 설정한 문자 크기 그대로 반영 될 수 있도록 */
   font-size: 100%;
@@ -85,10 +88,12 @@ div {
   margin-right: 8px;
 }
 
+
 .button {
+  
   color: #ece2ff;
   text-align: right;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -101,7 +106,7 @@ div {
   height: 900px;
   flex-shrink: 0;
   background: #0e0226;
-  min-height: 100vh;
+  min-height: 100vh;  
 }
 
 .big-text {
@@ -112,24 +117,32 @@ div {
   margin-bottom: 440px;
 }
 
+
 .subtitle {
   float: left;
   color: #ece2ff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
+
+
 .subtitle-color {
-  color: #8d51ff;
+  color: #8D51FF;
+  font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .title {
   float: left;
   color: #ece2ff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
@@ -164,12 +177,12 @@ div {
 
 #viewproject {
   color: #8d51ff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 4px;
+  
 }
 
 .east-img {
@@ -209,7 +222,7 @@ div {
 
 .project-title-fontsize {
   color: #2b0c0c;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
