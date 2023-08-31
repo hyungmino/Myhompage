@@ -73,6 +73,7 @@ div {
 
 .navigation a:hover {
   color: #8d51ff;
+  transition: all 0.3s;
 }
 
 .about {
