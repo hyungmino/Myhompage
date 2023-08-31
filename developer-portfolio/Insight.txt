@@ -18,3 +18,22 @@ font-size: 0; 주는 이유는 브라우저 렌더링 시 font-size로 인해 �
 
 두 번째 float :
 float를 사용하면 꼭 clear를 해주어 다음에 올 태그들이 꼭 제자리를 잡을 수 있도록 해준다.
+
+5. SVG 태그란?
+- SVG태그는 Scalable Vector Graphics의 약자로 벡터 기반 그래픽을 XML 형식으로 정의하는 것을 의미합니다.
+
+- SVG태그는 SVG그래픽을 담기 위한 요소입니다.
+
+- SVG태그 내부에 담을 수 있는 것은 원, 사각형, 다각형, 라인,  path 등이 있습니다. 
+
+- SVG태그는 파일의 모든 요소와 모든 속성에 애니메이션을 적용할 수 있습니다. 
+SVG의 stroke속성
+- SVG태그는 다양한 스트로크 속성을 제공합니다. 
+
+- stroke : 선색 속성
+
+- stroke-width : 선 굵기 속성
+
+- stroke-linecap : 선의 양쪽 끝 모양 속성
+
+- stroke-dasharray : 점선처리 속성

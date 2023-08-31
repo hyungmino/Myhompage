@@ -71,6 +71,10 @@ div {
   display: inline;
 }
 
+.navigation a:hover {
+  color: #8d51ff;
+}
+
 .about {
   margin-right: 40px;
 }
@@ -624,13 +628,6 @@ line-height: normal;
   padding-left: 224px;
 }
 
-.hr {
-  width: 1920px;
-height: 0px;
-flex-shrink: 0;
-stroke-width: 1px;
-stroke: #666;
-}
 
 .tistoy {
   margin-left: 1560px;
