@@ -12,12 +12,10 @@
  div는 화면의 가로 전체를 사용하고, span은 자신 안에 콘텐츠만큼만 공간을 차지한다. 
 
  4. 두 개의 영역 나란히 배치하기
-첫 번째 display: inline-block;
+ display: inline-block;
 나란히 배치할 영역을 감싸고 있는 부모에게 display: block; font-size: 0;을 준다.
 font-size: 0; 주는 이유는 브라우저 렌더링 시 font-size로 인해 약간의 margin이 발생 따라서 없애주어야 한다.
 
-두 번째 float :
-float를 사용하면 꼭 clear를 해주어 다음에 올 태그들이 꼭 제자리를 잡을 수 있도록 해준다.
 
 5. SVG 태그란?
 - SVG태그는 Scalable Vector Graphics의 약자로 벡터 기반 그래픽을 XML 형식으로 정의하는 것을 의미합니다.
@@ -37,3 +35,7 @@ SVG의 stroke속성
 - stroke-linecap : 선의 양쪽 끝 모양 속성
 
 - stroke-dasharray : 점선처리 속성
+
+6. JavaScript를 배우며 skills 영역에 + img를 눌렀을때 jQuery show,hide
+toggle 기능을 활용하여 앞으로 더 배울 기술들을 삽입 update도 추후 할 예정
+또한 project 영역에서 프로젝트별로 화면멈춤기능도 update해봐야겠다고 생각했다.
